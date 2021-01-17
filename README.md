@@ -96,9 +96,9 @@ view.findNavController()
 
 ## 4. Back Stack Manipulation
 
-###4.1 Add BackStac by PopTo
+### 4.1 Add BackStac by PopTo
 
-![](images/4_2.png)
+![](images/4_1.png)
 
 ---
 
