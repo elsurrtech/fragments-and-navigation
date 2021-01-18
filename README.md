@@ -6,7 +6,7 @@
 * Conditional Navigation
 * Back Stacks Manipulation
 * NavController with ActionBar
-* * Pass data between fragments - though SafeArgs (Safe Arguments)
+* Pass data between fragments - though SafeArgs (Safe Arguments)
 * Explicit and Implicit Intents (share you quiz results on other apps like whatsapp etc. )
 * Animation between fragments**
 * BONUS 1: Add a menu
@@ -105,10 +105,13 @@ view.findNavController()
 ## 5. NavController with ActionBar Connection
 
 ### 5.1 Link the NavController to the ActionBar with NavigationUI.setupWithNavController
+
 ```
 val navController = this.findNavController(R.id.myNavHostFragment)
 ```
+
 Link the NavController to our ActionBar.
+
 ```
 NavigationUI.setupActionBarWithNavController(this, navController)
 ```
@@ -160,13 +163,18 @@ questionIndex(6.4) is the value for numCorrect(6.3)
 
 
 ### 6.5 Fetch the data in next fragment
+
 ```
 val args =  GameWonFragmentArgs.fromBundle(arguments!!)
+
 ```
+
 	Now use:
+
 ```
 args.numCorrect
 ```
+
 	to access the correct answers value
 
 ---
